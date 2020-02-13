@@ -12,12 +12,13 @@ int main(){
   return 0;
 }
 
+// A more traditional function
 int power(int base, int n){
 
   int i, p;
   p = 1;
-  
-  for(i = 0; i <= n; i++)
+
+  for(i = 1; i <= n; i++)
     p = p * base;
 
   return p;
